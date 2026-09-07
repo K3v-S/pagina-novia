@@ -254,11 +254,13 @@ button:hover {
 }
 @media (max-width: 600px) {
   .bienvenida h2 {
-    font-size: 1.5rem; /* título más pequeño */
+    font-size: 1.4rem;   /* título más pequeño */
+    margin: 10px;
   }
   .bienvenida p {
-    font-size: 1rem;   /* texto más legible en móvil */
+    font-size: 1rem;     /* texto más legible */
     line-height: 1.4;
+    margin: 10px;
   }
 }
 @keyframes fadeIn {
